@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lightbox Exercise</title>
+		<link rel="stylesheet" href="lightbox.css">
+		<script type="text/javascript" src="lightbox.js"></script>
+	</head>
+	<body>
+		<h1>My First Lightbox</h1>
+		<div id="thumbContainer">
+			<div class="thumbFrame"><img src="images/arabian-thumb.jpg" alt="Arabian" onclick="displayImage('images/arabian.jpg', 'Arabian')"></div>
+			<div class="thumbFrame"><img src="images/horse-thumb.jpg" alt="Horse" onclick="displayImage('images/horse.jpg', 'Horse')"></div>
+			<div class="thumbFrame"><img src="images/dog-thumb.jpg" alt="Dog" onclick="displayImage('images/dog.jpg', 'Dog')"></div>
+			<div class="thumbFrame"><img src="images/horseandpony-thumb.jpg" alt="Horse and Pony" onclick="displayImage('images/horseandpony.jpg', 'Horse and Pony')"></div>
+			<div class="thumbFrame"><img src="images/pinto-thumb.jpg" alt="Pinto" onclick="displayImage('images/pinto.jpg', 'Pinto')"></div>
+			<div class="thumbFrame"><img src="images/tb-thumb.jpg" alt="Thoroughbred" onclick="displayImage('images/tb.jpg', 'Thoroughbred')"></div>
+		</div>
+		<div id="overlayFrame"></div>
+		<div id="imageFrame">
+			<img id="bigImage" src="images/arabian.jpg">
+			<img id="closeButton" src="images/x.png" onclick="closeImage()">
+		</div>		
+	</body>
+</html>
