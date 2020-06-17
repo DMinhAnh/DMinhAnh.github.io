@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Albert and Simon's Adventure</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="gameBoard">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<div class="message" id="lose">
+			<button type="button" onclick="restartGame();">You lose! Click to replay</button>
+		</div>
+		<div class="message" id="levelup">Next Level</div>
+		<div class="message" id="endgame">
+			<button type="button" onclick="restartGame();">Finish! Click to replay</button>
+		</div>
+		<div class="message" id="startgame">
+			<button type="button" onclick="startGame();">Albert and Simon's Adventure!<br>Click to play</button>
+		</div>
+
+		<script src="game.js"></script>
+	</body>
+</html>
